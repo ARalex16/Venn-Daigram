@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faedcd;
+}
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: #3a86ff;
+    box-shadow: 0 5px 4px grey;
+    display: flex;
+    position: relative;
+}
+header h2{
+    width: 30%;
+    line-height: 70px;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(1, 1, 194);
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 3px grey;
+    background-color: #ff006e;
+    position: absolute;
+    left: 0;
+}
+header nav{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+nav ul{
+    height: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+nav ul li{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+#containerHome{
+    width: 90vw;
+    height: 60vh;
+    background-color: #d0f4de;
+    box-shadow: inset 5px 5px 4px grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    overflow: auto;
+}
+.mathTopic{
+    color: #ecf8f8;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #3a86ff;
+    border: 2px solid blue;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 6px 6px 4px grey;
+}
+.mathTopic:hover{
+    transform: translateY(-5px);
+    box-shadow: none;
+}
